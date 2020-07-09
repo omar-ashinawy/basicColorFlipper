@@ -1,0 +1,4 @@
+#Ignore Webstorm files
+/.idea/
+#Ignore images
+/img/

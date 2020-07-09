@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/mq-lessThan900.css" media="screen and (max-width:940px)">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+    <title>Color Flipper (Hex)</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<header>
+    <div class="head-index">
+        <a href="index.html">
+            Color&nbsp;flipper
+        </a>
+    </div>
+    <div class="head-anchors">
+        <a href="index.html" id="btn-simple">
+            Simple
+        </a>
+        <a href="hex.html" id="btn-hex">
+            Hex
+        </a>
+    </div>
+</header>
+<main>
+    <div class="div-main">
+        <div class="main-text">
+            <h2>Background Color: <span id="span-color">#FFFFFF</span> </h2>
+        </div>
+        <div class="main-input">
+            <label for="transp">Enter Transparency Value</label>
+            <input type="number" id="transp" name="transp" max="100" min="0" step="1" placeholder="Enter Transparency Value">
+        </div>
+        <button class="main-btn">
+            Change Randomly
+        </button>
+    </div>
+</main>
+<footer>
+    <div>
+        &copy;All Copyrights Reserved&period;
+    </div>
+    <div>
+        <a href="https://www.facebook.com/OmarAshinawy" target="_blank">
+            <svg><use xlink:href="img/facebook.svg#face-icon"></use></svg>
+        </a>
+        <a href="https://github.com/omar-ashinawy" target="_blank">
+            <svg><use xlink:href="img/github.svg#git-icon"></use></svg>
+        </a>
+    </div>
+</footer>
+<script src="js/hex.js"></script>
+</body>
+</html>

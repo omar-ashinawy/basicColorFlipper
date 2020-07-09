@@ -1,0 +1,151 @@
+html, body, main, header, footer, button, div, a, svg {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 3px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(139, 69, 19, 0.5);
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 20px 20px rgba(139, 69, 19, 0.5);
+}
+header > div{
+    width: 28rem;
+    height: 90%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3rem;
+}
+.head-index{
+    width: 13rem;
+    margin-left: 15vw;
+}
+.head-anchors{
+    margin-right: 15vw;
+}
+.head-anchors > a, .head-index > a{
+    width: 13rem;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 2px groove blue;
+    border-radius: 3rem;
+    color: red;
+    background-color: rgba(0, 255, 127, 0.5);
+    transition-property: color, background-color;
+    transition-duration: 450ms;
+    transition-timing-function: ease-in-out;
+}
+.head-anchors > a:hover, .head-index > a:hover{
+    background-color: burlywood;
+    color: dodgerblue;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-main{
+    height: inherit;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px dashed dodgerblue;
+}
+.main-text{
+    margin-bottom: 10px;
+    font-size: 2rem;
+    text-align: center;
+    width: 60vw;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 15px;
+}
+.main-input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+input{
+    width: 14.5rem;
+    font-size: 1.139rem;
+    text-align: center;
+    border-radius: 10px;
+    border-color: cadetblue;
+    border-style: double;
+}
+.main-btn{
+    margin-top: 10px;
+    color: dodgerblue;
+    font-size: 2rem;
+    width: 25vw;
+    height: 5rem;
+    background-color: rgba(34, 139, 34, 0.1);
+    border: 2px groove black;
+    border-radius: 15px;
+    box-shadow: 0px 10px 5px 10px rgba(0, 0, 0, 0.5);
+    transition-property: color, background-color;
+    transition-duration: 450ms;
+    transition-timing-function: ease-in-out;
+}
+.main-btn:hover{
+    cursor: pointer;
+    color: deepskyblue;
+    background-color: grey;
+}
+footer{
+    padding: 0px 9.8vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+footer > div{
+    width: 25rem;
+    height: 4.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+footer a{
+    width: 6rem;
+    height: inherit;
+
+}
+svg{
+    width: 6rem;
+    height: inherit;
+    transition-property: fill;
+    transition-duration: 450ms;
+    transition-timing-function: ease-in-out;
+    fill-opacity: 90%;
+}
+svg:hover{
+    fill: #1e90ff;
+}
+
